@@ -6,10 +6,10 @@ class FizzbeeMbt < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/fizzbee-io/fizzbee-mbt-releases/releases/download/v0.0.2/fizzbee-mbt-0.0.2-macos_arm.tar.gz"
-      sha256 "1369132c057e5504289e61340d46562f95183f4d8b284340c20a8fdc69fb2d88"
+      sha256 "ce328bfbf2235a62c6103bc636944954e625663442571d7f31ce959847817001"
     else
       url "https://github.com/fizzbee-io/fizzbee-mbt-releases/releases/download/v0.0.2/fizzbee-mbt-0.0.2-macos_x86.tar.gz"
-      sha256 "68df7db726082439c55050e602a4d23272b4b0cae948631457382c6e54b57bce"
+      sha256 "17e0c5c38548f9574ee27f9be598c5b5fab2923c897c9a5cec3e57c84067d169"
     end
   end
 
