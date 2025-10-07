@@ -1,15 +1,15 @@
 class FizzbeeMbt < Formula
   desc "Fizzbee MBT - A model-based testing tool"
   homepage "https://github.com/fizzbee-io/fizzbee-mbt"
-  version "0.0.2"
+  version "0.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fizzbee-io/fizzbee-mbt-releases/releases/download/v0.0.2/fizzbee-mbt-0.0.2-macos_arm.tar.gz"
-      sha256 "ce328bfbf2235a62c6103bc636944954e625663442571d7f31ce959847817001"
+      url "https://github.com/fizzbee-io/fizzbee-mbt-releases/releases/download/v0.1.0/fizzbee-mbt-0.1.0-macos_arm.tar.gz"
+      sha256 "01ba0de0517fb43c8fdb357c461ed78e4d4b7d7fe1000b183acf90ce56805eec"
     else
-      url "https://github.com/fizzbee-io/fizzbee-mbt-releases/releases/download/v0.0.2/fizzbee-mbt-0.0.2-macos_x86.tar.gz"
-      sha256 "17e0c5c38548f9574ee27f9be598c5b5fab2923c897c9a5cec3e57c84067d169"
+      url "https://github.com/fizzbee-io/fizzbee-mbt-releases/releases/download/v0.1.0/fizzbee-mbt-0.1.0-macos_x86.tar.gz"
+      sha256 "74f177d35007be3cbcbbe8e3b4f83fd200969dc8472224cacdbbbe0ec4cfb0fc"
     end
   end
 
